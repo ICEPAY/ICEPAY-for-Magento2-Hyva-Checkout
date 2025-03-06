@@ -1,0 +1,17 @@
+{
+  "name": "icepay/magento2-hyva-checkout",
+  "type": "magento2-module",
+  "require": {
+    "php": "~8.1",
+    "icepay/magento2": "*",
+    "hyva-themes/magento2-hyva-checkout": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Icepay\\HyvaCheckout\\": "src/"
+    }
+  }
+}
